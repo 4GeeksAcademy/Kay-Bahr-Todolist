@@ -1,0 +1,53 @@
+body {
+    font-family: "Thasadith", sans-serif;
+}
+
+h1 {
+    color: rgb(241, 196, 204);
+    font-size: 7vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input {
+    border: 1px black solid;
+    margin: 0 auto;
+    width: 600px;
+    position: relative; 
+    padding-left: 50px;
+    font-size: 2vw;
+}
+
+li {
+    font-size: 2vw;
+}
+
+.toDoList {
+    border: 1px black solid;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+    text-align: left;
+}
+
+.list {
+    list-style: none;
+}
+  
+.closer {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 2vw;
+    color: red;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    padding-left: 10px;
+    font-size: 1vw;
+}
