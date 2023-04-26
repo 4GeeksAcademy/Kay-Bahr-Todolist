@@ -57,6 +57,10 @@ const List = () => {
         </ul>
         <Footer itemCount={itemCount} />
       </div>
+      <div className="center">
+        <div className="pageNext">_________________________________________________</div>
+        <div className="pageLast">_________________________________________________</div>
+      </div>
     </div>
   );
 };
